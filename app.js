@@ -129,6 +129,4 @@ app.use((err, req, res, next) => {
 });
 
 //sever conection
-app.listen(8080, (req, res) => {
-    console.log("server listening at port 8080");
-})
+module.exports = app;

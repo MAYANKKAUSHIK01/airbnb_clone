@@ -1,16 +1,16 @@
 {
-  "engines": {"node":"24.12.0"},
   "name": "airbnb_clone",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Airbnb Clone Project",
+  "main": "app.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
